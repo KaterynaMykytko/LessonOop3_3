@@ -21,6 +21,7 @@ public class Car extends Vehicle {
 
     @Override
     public void showInfo(){
-        System.out.println("It's a car");
+        System.out.println("It's a car - " + super.getCoordinates() + " " + super.getPrice() + " " + super.getSpeed() +
+                " " + super.getProductionYear() + " " + this.getWeight() + " " + this.getNumOfDoors());
     }
 }

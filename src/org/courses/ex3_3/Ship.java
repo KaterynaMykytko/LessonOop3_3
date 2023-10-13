@@ -21,6 +21,8 @@ public class Ship extends Vehicle {
 
     @Override
     public void showInfo(){
-        System.out.println("It's a ship");
+        System.out.println("It's a ship - " + super.getCoordinates() + " " + super.getPrice() + " " +
+                super.getSpeed() + " " + super.getProductionYear() + " " + this.getShipPort()+ " " +
+                this.getNumPassengers());
     }
 }

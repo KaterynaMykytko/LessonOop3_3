@@ -11,16 +11,7 @@ public class Main {
 
         vehicle.showInfo();
         plane.showInfo();
-        System.out.println(plane.getCoordinates() + " " + plane.getPrice() + " " + plane.getSpeed() + " " +
-                plane.getProductionYear() + " " + plane.getHigh() + " " + plane.getNumPassengers());
-
         car.showInfo();
-        System.out.println(car.getCoordinates() + " " + plane.getPrice() + " " + car.getSpeed() + " " +
-                car.getProductionYear() + " " + car.getWeight() + " " + car.getNumOfDoors());
-
         ship.showInfo();
-        System.out.println(ship.getCoordinates() + " " + ship.getPrice() + " " + ship.getSpeed() + " " +
-                ship.getProductionYear() + " " + ship.getShipPort()+ " " + ship.getNumPassengers());
-
     }
 }

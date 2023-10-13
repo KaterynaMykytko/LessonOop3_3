@@ -21,6 +21,7 @@ public class Plane extends Vehicle{
 
     @Override
     public void showInfo(){
-        System.out.println("It's a plane");
+        System.out.println("It's a plane - " + this.getCoordinates() + " " + this.getPrice() + " " + this.getSpeed()
+                + " " + this.getProductionYear() + " " + this.getHigh() + " " + this.getNumPassengers());
     }
 }
